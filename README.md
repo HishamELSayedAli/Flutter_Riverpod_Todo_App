@@ -44,39 +44,40 @@ Clean/Modular Architecture: Separation of concerns (Repository, Provider, View) 
 📂 Code Structure 
 
 The project follows a standard modular architecture where features are divided into clear layers:
-.
-└── lib/
-    ├── core/
-    │   ├── config/
-    │   │   └── realm_config.dart
-    │   ├── nav/
-    │   │   └── routes.dart
-    │   └── widget/
-    │       └── my_form_feild.dart
-    ├── features/
-    │   ├── add_task/
-    │   │   ├── models/ 
-    │   │   │   └── ..
-    │   │   ├── providers/ 
-    │   │   │   └── ..
-    │   │   ├── repository/ 
-    │   │   │   └── ..
-    │   │   └── views/ 
-    │   │       └── add_task_screen.dart
-    │   └── home/
-    │       └── models/
-    │           ├── task_model.dart
-    │           ├── task_model.realm.dart 
-    │           ├── providers/ 
-    │           │   ├── task_provider.dart
-    │           │   └── task_state.dart
-    │           ├── repository/ 
-    │           │   └── task_repo.dart
-    │           └── views/ 
-    │               ├── widget/
-    │               │   └── tasks_widget.dart
-    │               └── home.dart
-    └── main.dart 
+lib
+    core
+        config/
+          realm_config.dart 
+        nav/
+          routes.dart
+        widget/
+          my_form_feild.dart
+    features
+      add_task/
+          models/ 
+             ..
+          providers/ 
+              ..
+          repository/ 
+             ..
+          views/ 
+           add_task_screen.dart
+      home/
+         models/
+           task_model.dart
+           task_model.realm.dart 
+          providers/ 
+            task_provider.dart
+            task_state.dart
+          repository/ 
+            task_repo.dart
+          views/ 
+            widget/
+              tasks_widget.dart
+            home.dart
+    main.dart 
+  
+   
 
 
     ⚙️ Getting Started

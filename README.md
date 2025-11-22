@@ -44,8 +44,6 @@ Clean/Modular Architecture: Separation of concerns (Repository, Provider, View) 
 📂 Code Structure 
 
 The project follows a standard modular architecture where features are divided into clear layers:
-
-  .
 └── lib/
     ├── core/
     │   ├── config/
@@ -80,36 +78,35 @@ The project follows a standard modular architecture where features are divided i
     └── main.dart 
    
 
-
-    ⚙️ Getting Started
+⚙️ Getting Started
     
 
 Clone the repository:
 
-git clone [YOUR_REPOSITORY_URL]
+    git clone [YOUR_REPOSITORY_URL]
 
 
 Navigate to the project directory:
 
-cd [your_project_name]
+    cd [your_project_name]
 
 
 Install dependencies:
 
-flutter pub get
+    flutter pub get
 
 
 Generate Realm models:
 
-Realm requires code generation for models.
-<!-- end list -->
+  Realm requires code generation for models.
+    <!-- end list -->
 
-flutter pub run build_runner build --delete-conflicting-outputs
-
-
-Run the application:
-
-flutter run
+    flutter pub run build_runner build --delete-conflicting-outputs
 
 
->>>>>>> d33d6246f05fd191b82b7a7bacb37eda81a47650
+  Run the application:
+
+    flutter run
+
+
+

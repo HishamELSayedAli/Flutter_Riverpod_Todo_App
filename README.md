@@ -3,18 +3,25 @@
 
 A new Flutter project.
 =======
-# Flutter_Riverpod_Todo_App
+## Flutter_Riverpod_Todo_App
 A robust To-Do application built with Flutter, utilizing Riverpod for efficient state management and Realm for fast, local data persistence.
 
+
+---
 Flutter_Riverpod_Todo_App ✍️
 
 A highly efficient and architecturally clean To-Do List application developed with Flutter, designed for performance and maintainability.
 
+
+---
 ✨ Overview
 
 This application serves as a practical and robust example of a To-Do List app, applying Clean Architecture principles using the MVVM/Repository pattern. This ensures a complete separation between the User Interface (View), Business Logic (ViewModel/Provider), and Data Access (Repository/Realm).
 
+
+---
 🚀 Key Features
+
 
 Task Management (CRUD): Create, Read, Update, and Delete tasks.
 
@@ -28,6 +35,8 @@ Archived
 
 Offline First: Reliance on Realm for fast, local data persistence.
 
+
+---
 🛠 Tech Stack
 
 
@@ -41,43 +50,82 @@ Realm: A high-performance, local database solution for offline data persistence.
 
 Clean/Modular Architecture: Separation of concerns (Repository, Provider, View) for code clarity.
 
+
+---
 📂 Code Structure 
 
 The project follows a standard modular architecture where features are divided into clear layers:
-└── lib/
-    ├── core/
-    │   ├── config/
-    │   │   └── realm_config.dart 
-    │   ├── nav/
-    │   │   └── routes.dart
-    │   └── widget/
-    │       └── my_form_feild.dart
-    ├── features/
-    │   ├── add_task/
-    │   │   ├── models/ 
-    │   │   │   └── ..
-    │   │   ├── providers/ 
-    │   │   │   └── ..
-    │   │   ├── repository/ 
-    │   │   │   └── ..
-    │   │   └── views/ 
-    │   │       └── add_task_screen.dart
-    │   └── home/
-    │       └── models/
-    │           ├── task_model.dart
-    │           ├── task_model.realm.dart 
-    │           ├── providers/ 
-    │           │   ├── task_provider.dart
-    │           │   └── task_state.dart
-    │           ├── repository/ 
-    │           │   └── task_repo.dart
-    │           └── views/ 
-    │               ├── widget/
-    │               │   └── tasks_widget.dart
-    │               └── home.dart
-    └── main.dart 
-   
 
+    lib
+        core
+            config/
+              realm_config.dart 
+            nav/
+              routes.dart
+            widget/
+              my_form_feild.dart
+        features
+          add_task/
+                models/ 
+                 ..
+              providers/ 
+                  ..
+              repository/ 
+                 ..
+              views/ 
+               add_task_screen.dart
+          home/
+             models/
+               task_model.dart
+               task_model.realm.dart 
+              providers/ 
+                task_provider.dart
+                task_state.dart
+              repository/ 
+                task_repo.dart
+              views/ 
+                widget/
+                  tasks_widget.dart
+                home.dart
+        main.dart 
+  
+   
+    core
+        config/
+          realm_config.dart 
+        nav/
+          routes.dart
+        widget/
+          my_form_feild.dart
+    features
+      add_task/
+          models/ 
+             ..
+          providers/ 
+              ..
+          repository/ 
+             ..
+          views/ 
+           add_task_screen.dart
+      home/
+         models/
+           task_model.dart
+           task_model.realm.dart 
+          providers/ 
+            task_provider.dart
+            task_state.dart
+          repository/ 
+            task_repo.dart
+          views/ 
+            widget/
+              tasks_widget.dart
+            home.dart
+    main.dart 
+  
+                  
+       
+
+---
 ⚙️ Getting Started
     
 
